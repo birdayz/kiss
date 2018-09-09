@@ -1,3 +1,11 @@
+{{- if .Site.Params.utterances.enabled -}}
+<script src="https://utteranc.es/client.js"
+        repo="birdayz/birdayz.github.io"
+        issue-term="pathname"
+        crossorigin="anonymous"
+        async>
+</script>
+{{ end }}
 {{ if .Site.DisqusShortname }}
 <section class="section">
   <div class="container">
